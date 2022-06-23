@@ -56,29 +56,20 @@
             android:gravity="center">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViews1"
                 android:text="3.260"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViews1"
                 android:text="411 Mio."
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViews1"
                 android:text="502"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </TableRow>
@@ -89,27 +80,18 @@
             android:gravity="center">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViews1"
                 android:text="Beiträge"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViews1"
                 android:text="Follower"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViews1"
                 android:text="Gefolgt"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -119,27 +101,17 @@
 
     <TextView
         android:id="@+id/tvProfileName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        style="@style/TextViews2"
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif"
         android:text="Christiano Ronaldo"
-        android:textColor="@android:color/black"
-        android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivProfilePic" />
 
     <TextView
         android:id="@+id/tvProfileDescription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        style="@style/TextViews2"
         android:text="&#9917; Manchester United, seit 2021"
-        android:textColor="@android:color/black"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvProfileName" />
 
     <LinearLayout
@@ -194,8 +166,7 @@
             android:id="@+id/ibtnGallery"
             style="@style/Buttons2"
             android:contentDescription="Galerie"
-            app:srcCompat="@drawable/icon_2"
-           />
+            app:srcCompat="@drawable/icon_2" />
 
         <ImageButton
             android:id="@+id/ibtnIGTV"

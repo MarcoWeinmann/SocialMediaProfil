@@ -21,10 +21,22 @@
     <style name="ImageViews">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
-        <item name="app:layout_columnWeight">1</item>
-        <item name="app:layout_rowWeight">1</item>
-
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
     </style>
 
+    <style name="TextViews1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
 
-</resources>
+    <style name="TextViews2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height" wrap_content</item>
+    <item name="android:layout_marginStart">10dp</item>
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:textSize">16sp</item>
+    <item name="app:layout_constraintStart_toStartOf">parent</item>
+</style></resources>
