@@ -157,24 +157,16 @@
 
         <Button
             android:id="@+id/btnFollow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"
+            style="@style/Buttons"
             android:backgroundTint="#2196F3"
             android:text="Folgen"
-            android:textAllCaps="false"
             tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/btnMessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"
+            style="@style/Buttons"
             android:backgroundTint="@color/white"
             android:text="Nachricht"
-            android:textAllCaps="false"
             android:textColor="@android:color/black" />
 
         <ImageButton
@@ -200,36 +192,22 @@
 
         <ImageButton
             android:id="@+id/ibtnGallery"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/white"
+            style="@style/Buttons2"
             android:contentDescription="Galerie"
-            android:scaleType="fitCenter"
             app:srcCompat="@drawable/icon_2"
-            tools:ignore="TouchTargetSizeCheck" />
+           />
 
         <ImageButton
             android:id="@+id/ibtnIGTV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/white"
+            style="@style/Buttons2"
             android:contentDescription="IGTV"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/icon_3"
-            tools:ignore="TouchTargetSizeCheck" />
+            app:srcCompat="@drawable/icon_3" />
 
         <ImageButton
             android:id="@+id/ibtnTags"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/white"
+            style="@style/Buttons2"
             android:contentDescription="Markierungen"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/icon_4"
-            tools:ignore="TouchTargetSizeCheck" />
+            app:srcCompat="@drawable/icon_4" />
     </LinearLayout>
 
     <androidx.gridlayout.widget.GridLayout
@@ -243,93 +221,68 @@
 
         <ImageView
             android:id="@+id/ivImage1"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_row="0"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_1" />
 
         <ImageView
             android:id="@+id/ivImage2"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_row="0"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_2"
             tools:ignore="ImageContrastCheck" />
 
         <ImageView
             android:id="@+id/ivImage3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="2"
-            app:layout_columnWeight="1"
             app:layout_row="0"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_3" />
 
         <ImageView
             android:id="@+id/ivImage4"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="0"
-            app:layout_columnWeight="1"
             app:layout_row="1"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_4" />
 
         <ImageView
             android:id="@+id/ivImage5"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="1"
-            app:layout_columnWeight="1"
             app:layout_row="1"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_5" />
 
         <ImageView
             android:id="@+id/ivImage6"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="2"
-            app:layout_columnWeight="1"
             app:layout_row="1"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_6" />
 
         <ImageView
             android:id="@+id/ivImage7"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="0"
-            app:layout_columnWeight="1"
             app:layout_row="2"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_7" />
 
         <ImageView
             android:id="@+id/ivImage8"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="1"
-            app:layout_columnWeight="1"
             app:layout_row="2"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_8" />
 
         <ImageView
             android:id="@+id/ivImage9"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            style="@style/ImageViews"
             app:layout_column="2"
-            app:layout_columnWeight="1"
             app:layout_row="2"
-            app:layout_rowWeight="1"
             app:srcCompat="@drawable/bild_9" />
 
     </androidx.gridlayout.widget.GridLayout>
