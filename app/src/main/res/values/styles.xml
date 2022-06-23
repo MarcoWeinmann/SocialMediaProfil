@@ -34,9 +34,8 @@
 
     <style name="TextViews2">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height" wrap_content</item>
-    <item name="android:layout_marginStart">10dp</item>
-    <item name="android:textColor">@android:color/black</item>
-    <item name="android:textSize">16sp</item>
-    <item name="app:layout_constraintStart_toStartOf">parent</item>
+        <item name="android:layout_height">wrap_content</item>
+          <item name="android:layout_marginStart">10dp</item>
+          <item name="android:textColor">@android:color/black</item>
+         <item name="android:textSize">16sp</item>
 </style></resources>
